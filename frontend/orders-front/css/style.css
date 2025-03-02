@@ -1,0 +1,286 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+blockquote,
+em,
+img,
+q,
+strong,
+sub,
+sup,
+b,
+i,
+ol,
+ul,
+li,
+table,
+tbody,
+tfoot,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  font-family: arial, sans-serif;
+  background-color: #111;
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: #333;
+}
+
+header {
+  background: #222;
+  padding: 10px 30px;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  height: 40px;
+}
+
+#mainTitle h1 {
+  color: #eee;
+  text-align: center;
+}
+
+#customersDropDown {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+#customerData {
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  padding-top: 60px;
+  background-color: #fffff0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.sidebarContent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.sidebarContent img {
+  height: 100%;
+  max-width: 150px;
+}
+
+.sidebarContent button {
+  min-height: 25px;
+  min-width: 150px;
+}
+
+.sidebar {
+  min-width: 200px;
+  padding: 10px;
+  background-color: #aaa;
+}
+
+#customerData main {
+  width: 100%;
+  background-color: #ddd;
+  min-height: 270px;
+  padding-bottom: 15px;
+}
+
+#customerData main h2 {
+  padding: 15px;
+  color: #333;
+  text-align: center;
+}
+
+#customerOrders {
+  min-width: 520px;
+}
+
+/* Dropdown Button */
+.dropButton {
+  background-color: #444;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropButton:hover, .dropButton:focus {
+  background-color: #666;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropDownContent {
+  margin-top: 50px;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropDownContent > #userInput {
+  padding: 5px 5px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Links inside the dropdown */
+.dropDownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropDownContent a:hover {
+  background-color: #ddd;
+}
+
+/*
+* table format
+*/
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 5px 0;
+}
+
+th[scope='col'] {
+  background-color: #505050;
+  color: #fff;
+}
+
+th[scope='row'] {
+  background-color: #d6ecd4;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-of-type(even) {
+  background-color: #eee;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 5px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+}
+
+/*
+* used in customer orders table
+*/
+
+.orderHeader {
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: left;
+  color: #444444;
+  padding-top: 15px;
+}
+
+.rightNumber {
+  text-align: right;
+}
+
+.underTableButton {
+  padding: 8px 10px;
+}
